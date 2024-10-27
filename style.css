@@ -1,0 +1,64 @@
+  body{
+    background-image: url(img/vetor.png);
+    
+  }
+  .container{
+    background-color: white!important;
+    
+  }
+  .texto{
+    padding: 10px 0 0 10px;
+  }
+
+  @keyframes moving1 {
+    33.33% {
+        background-color: white;
+        color: green;
+      }
+  
+      100% {
+        background-color: green;
+      }
+    }
+
+    .botao{
+      animation: moving1 0.5s infinite;
+    }
+    .modal-body{
+      justify-items: center;
+    }
+    .chave{
+      color: green;
+      font-weight: 800;
+      cursor: pointer;
+      font-size: 15pt;
+    }
+    .linha{
+      width: 100%;
+      height: 2px;
+      background-color: black;
+    }
+    .img-foto{
+      width: 150px;
+      height: 150px;
+    }
+
+    .cards{
+      flex-flow: wrap;
+      display: flex;
+      gap: 10px;
+      
+    }
+    .cards .card{
+cursor: pointer;
+    }
+    .cards .card:hover{
+      scale: 1.02;
+      transition: 100ms linear
+          }
+
+    .obs{
+      font-size: 10pt;
+      text-align: center;
+    }
+
