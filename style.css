@@ -47,6 +47,7 @@
       flex-flow: wrap;
       display: flex;
       gap: 10px;
+      justify-content: center;
       
     }
     .cards .card{
