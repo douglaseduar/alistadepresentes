@@ -63,3 +63,11 @@ cursor: pointer;
       text-align: center;
     }
 
+.ilustrativa {
+  position: absolute;
+  text-align: center;
+  top: 13%;
+  opacity: 0.4;
+  font-size: 16pt;
+  font-weight: 900;
+}
